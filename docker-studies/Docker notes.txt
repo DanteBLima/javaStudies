@@ -1,0 +1,29 @@
+Docker
+
+Docker Files:
+
+Contem todos os arquivos e informações necessários para gerar a imagem da sua aplicação para que
+funcione corretamente.
+
+Container:
+
+Instancia de uma imagem, ambiente executando.
+
+Registry:
+
+Hubs onde nde são armazenadas as imagens para que possam ser reutilizdas por outras pessoas.
+
+
+Commands:
+
+docker ps: Show all running containers
+docker ps -a: Show all containers that have run in the current machine
+docker stop {container ID}: Para o container que está ativo
+docker start {container ID}: Starta o container desejado
+docker exec: Dar um comando em algum container
+docker run -P {nome do container criado}: usa o -P para mapear pra alguma porta livre do seu sistema, usa o ps pra ver
+docker run -p 8080:8080 {nome do container}: -p minusculo vc escolhe, a primeira porta é a da sua maquina que vc quer, 
+						a segunda dps dos dois pontos é a do container.
+						
+
+
